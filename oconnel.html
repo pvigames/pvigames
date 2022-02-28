@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="font.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+      h1 {
+        font-size: 14vw;
+        color:white;
+      }
+      .countdown {
+        display:inline-block;
+        position:absolute;
+        font-size: 14px;
+        z-index: 2;
+        bottom: 1%;
+        color: white;
+        transform: translate(-50%, -50%);
+      }
+      .centerbox {
+        width: 100%;
+        text-align: center;
+        border: white solid 1px;
+      }
+    </style>
+    <script>
+      var timeleft = 5;
+      var downloadTimer = setInterval(function(){
+        if(timeleft <= 0){
+          clearInterval(downloadTimer);
+           window.location.href = "index.html";
+        } else {
+          document.getElementById("countdown").innerHTML = "redirecting in " +timeleft;
+        }
+        timeleft -= 1;
+      }, 1000);
+    </script>
+  </head>
+  <body>
+    <div class="centerbox">
+      <h1>FUCK O'Connell!</h1>
+      <div class="countdown" id="countdown"></div>
+    </div>
+  </body>
+</html>
