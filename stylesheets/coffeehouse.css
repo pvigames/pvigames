@@ -1,0 +1,27 @@
+body {
+  background-image: url('../assets/photo-1463797221720-6b07e6426c24.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+      }
+.buttonbox{
+  background-color: rgba(49, 49, 51, 0.5);
+  border: #FFEEAF solid 1px;
+}
+.titlecont {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  right: 5%;
+  border: none;
+  text-align: center;
+}
+.titlecont h1 {
+  color: #313133;
+}
+.Button {
+  background: #B1A7A6;
+}
+span {
+  color: #FFEEAF;
+}
