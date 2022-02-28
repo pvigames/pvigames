@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Emblema';
+	src:url("../fonts/EmblemaOne-Regular.ttf");
+	font-style: normal;
+	font-weight: 100;
+	
+}
+* {
+  font-family: 'Emblema';
+  font-style: normal;
+  font-weight: 100;
+}
+.titlecont h1{
+  text-size: fit-content
+  color:white;
+}
