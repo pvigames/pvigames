@@ -109,7 +109,7 @@ span {
 }
 .dropdown-content a:hover {
   color: #FFFFFF;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(153, 153, 153, 0.5);;
 }
 .dropdown button {
   all: unset;
