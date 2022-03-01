@@ -1,15 +1,33 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="https://ssl.gstatic.com/classroom/favicon.png">
     <title>Classes</title>
+    <script src="javascript/stylesandloading.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/font.css">
     <link rel="stylesheet" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" href="stylesheets/coffeehouse.css">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="default.css">
   </head>
   <body>
-    <div class="titlecont"><h1><span onclick="location.href='oconnel.html'">PVI</span> Games!</h1></div>
+    <div class="dropdown">
+      <button id ="dropdown">Themes</button>
+      <div class="dropdown-content">
+        <a id="theme1" onclick="swapStyleSheet('none')">None</a>
+        <a id="theme2" onclick="swapStyleSheet('table')">Table</a>
+        <a id="theme3" onclick="swapStyleSheet('coffee')">Coffee</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button id="dropdown2">Languages</button>
+      <div class="dropdown-content">
+        <a id="lang1" onclick="swapLanguage('english')">English</a>
+        <a id="lang2" onclick="swapLanguage('german')">German</a>
+        <a id="lang3" onclick="swapLanguage('french')">French</a>
+      </div>
+    </div>
+    <div class="titlecont"><h1 id="title"><span onclick="location.href='oconnel.html'">PVI</span> Games!</h1></div>
     <div class="buttonbox">
-      <button class="Button" onclick="location.href='https://pvigaming.github.io/'">GetJesus</button>
+      <button class="Button" onclick="location.href='https://pvigaming.github.io/'"><p>GetJesus</p></button>
       <button class="Button" onclick="location.href='https://crabhelper.github.io/get-ashley/'">GetAshley</button>
       <button class="Button" onclick="location.href='https://mitchgu.github.io/GetMIT/'">GetMIT</button>
       <button class="Button" onlcick="location.href='https://getpvi.github.io/GetPVI/'">GetPVI</button>
