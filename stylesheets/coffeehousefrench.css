@@ -1,0 +1,35 @@
+* {
+  font-family: 'Emblema';
+}
+body {
+  background-image: url('../assets/coffeehousecontrasted.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buttonbox{
+  background-color: rgba(49, 49, 51, 0.5);
+  border: #FFEEAF solid 1px;
+}
+.titlecont {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  border: none;
+  text-align: center;
+}
+.titlecont h1 {
+  color: #313133;
+  -webkit-text-stroke-width: 0.2vw;
+  -webkit-text-stroke-color: #FFEEAF;
+  font-size: 10vw;
+}
+.Button {
+  background: #B1A7A6;
+}
+span {
+  color: #FFEEAF;
+  -webkit-text-stroke-width: 0.2vw;
+  -webkit-text-stroke-color: #313133;
+}

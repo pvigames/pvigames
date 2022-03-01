@@ -1,0 +1,44 @@
+* {
+  font-family: Chant;
+}
+body {
+  background-image: url('../assets/coffeetable.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buttonbox{
+  background-color: rgba(49, 49, 51, 0.5);
+  border: solid 1px #879548;
+  border-left: none;
+  border-right:none;
+  left:0;
+  right:0;
+  width: 100%;
+}
+.titlecont {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  right: 5%;
+  border: none;
+  text-align: center;
+}
+.titlecont h1 {
+  color: #192811;
+  text-shadow: -1px 1px 0 #BEB057,
+        1px 1px 0 #BEB057,
+				1px -1px 0 #BEB057,
+				-1px -1px 0 #BEB057;
+}
+.Button {
+  background: #D0CACC;
+  color:#192811;
+}
+span {
+  color: #BEB057;
+  text-shadow: -1px 1px 0 #192811,
+				1px 1px 0 #192811,
+				1px -1px 0 #192811,
+				-1px -1px 0 #192811;
+}

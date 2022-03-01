@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Chant';
+	src:url("../fonts/LechantdesAlbatros.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Manky';
+	src:url("../fonts/Manky.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Emblema';
+	src:url("../fonts/EmblemaOne-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
