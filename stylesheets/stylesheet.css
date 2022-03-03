@@ -94,6 +94,7 @@ span {
   display: inline-block;
   position: relative;
   z-index:3;
+  cursor: default;
 }
 .dropdown-content {
   display: none;
