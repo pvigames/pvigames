@@ -8,6 +8,7 @@ body {
   background-size: cover;
 }
 .buttonbox{
+  display: block;
   background-color: rgba(49, 49, 51, 0.5);
   border: solid 1px #879548;
   border-left: none;
@@ -15,6 +16,10 @@ body {
   left:0;
   right:0;
   width: 100%;
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */
 }
 .titlecont {
   position: absolute;

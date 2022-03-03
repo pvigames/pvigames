@@ -26,8 +26,12 @@ body {
 }
 .Button {
   background: #B1A7A6;
+  transition: 1s;
 }
-span {
+.Button:hover{
+  background: #948e8e;
+}
+.titlecont span {
   color: #FFEEAF;
   -webkit-text-stroke-width: 0.4vw;
   -webkit-text-stroke-color: #313133;

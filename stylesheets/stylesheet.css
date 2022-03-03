@@ -85,6 +85,11 @@ body {
 span {
   cursor: pointer;
 }
+.bottomtext {
+  display: inline-block;
+  position: absolute;
+  
+}
 .dropdown {
   display: inline-block;
   position: relative;
@@ -109,7 +114,7 @@ span {
 }
 .dropdown-content a:hover {
   color: #FFFFFF;
-  background-color: rgba(153, 153, 153, 0.5);;
+  background-color: rgba(153, 153, 153, 0.5);
 }
 .dropdown button {
   all: unset;
