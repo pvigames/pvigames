@@ -2,8 +2,6 @@
 let last = window.localStorage.getItem('laststyle');
 window.addEventListener("load", function() {
   document.getElementById('pagestyle').setAttribute('href', last);
-});
-window.addEventListener("load", function() {
   let loadlastlang = window.localStorage.getItem('lastLanguage');
   swapLanguage(loadlastlang)
 });
