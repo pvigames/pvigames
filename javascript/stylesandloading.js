@@ -1,9 +1,14 @@
 /*load up the last style*/
 let last = window.localStorage.getItem('laststyle');
+const sites = [["GetJesus", "pvigaming.github.io/", true], ["GetAshley", "crabhelper.github.io/get-ashley/", true], ["GetMIT", "mitchgu.github.io/GetMIT/", true], ["GetPVI", "getpvi.github.io/GetPVI/", true], ["Wordle", "www.nytimes.com/games/wordle/index.html", true], ["Worldle", "worldle.teuteuf.fr/", true], ["WordleU", "www.wordleunlimited.com/", true], ["Semantle", "semantle.novalis.org/", true], ["Quordle", "www.quordle.com/#/", true], ["Jsemu2", "jsemu2.github.io/gba/", true], ["TotallyS", "totallyscience.co/classes.html", false]];
 window.addEventListener("load", function() {
   document.getElementById('pagestyle').setAttribute('href', last);
   let loadlastlang = window.localStorage.getItem('lastLanguage');
-  swapLanguage(loadlastlang)
+  swapLanguage(loadlastlang);
+  for (let site of sites) {
+    let red = (site[2]) ? " " : "style=\"background-color: red\"";
+    document.getElementById('buttonbox').innerHTML += `<button class="Button" ${red} onclick="location.href='https://${site[1]}'">${site[0]}</button>`;
+  }
 });
 /*swap the style*/
 function swapStyleSheet(style){
@@ -78,4 +83,4 @@ function swapLanguage(x) {
   window.localStorage.setItem('lastLanguage', x);
   currentstyle = window.localStorage.getItem('laststyle');
   swapStyleSheet(currentstyle);
-      }
+}
