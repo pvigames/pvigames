@@ -1,6 +1,6 @@
 /*load up the last style*/
 let last = window.localStorage.getItem('laststyle');
-const sites = [["GetJesus", "pvigaming.github.io/", true], ["GetAshley", "crabhelper.github.io/get-ashley/", true], ["GetMIT", "mitchgu.github.io/GetMIT/", true], ["GetPVI", "getpvi.github.io/GetPVI/", true], ["Wordle", "www.nytimes.com/games/wordle/index.html", true], ["Worldle", "worldle.teuteuf.fr/", true], ["WordleU", "www.wordleunlimited.com/", true], ["Semantle", "semantle.novalis.org/", true], ["Quordle", "www.quordle.com/#/", true], ["Jsemu2", "jsemu2.github.io/gba/", true], ["TotallyS", "totallyscience.co/classes.html", false]];
+const sites = [["GetJesus", "pvigaming.github.io/", true], ["GetAshley", "crabhelper.github.io/get-ashley/", true], ["GetMIT", "mitchgu.github.io/GetMIT/", true], ["GetPVI", "getpvi.github.io/GetPVI/", true], ["Wordle", "www.nytimes.com/games/wordle/index.html", true], ["Worldle", "worldle.teuteuf.fr/", true], ["WordleU", "www.wordleunlimited.com/", true], ["Semantle", "semantle.novalis.org/", true], ["Quordle", "www.quordle.com/#/", true], ["Jsemu2", "jsemu2.github.io/gba/", true], ["TotallyS", "totallyscience.co/classes.html", false], ["FunBlock", "sites.google.com/site/funblocked77/retro-bowl-unblocked", true];
 window.addEventListener("load", function() {
   document.getElementById('pagestyle').setAttribute('href', last);
   let loadlastlang = window.localStorage.getItem('lastLanguage');
